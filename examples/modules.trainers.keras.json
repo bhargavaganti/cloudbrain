@@ -1,0 +1,19 @@
+{
+  "modules": [
+    {
+      "name": "KerasTrainer",
+      "package": "cloudbrain.modules.trainers.keras",
+      "options": {
+        "classifier_package": "keras.models",
+        "classifier_name": "Sequencial",
+        "classifier_input": "training.csv",
+        "classifier_options": {},
+        "classifier_output": "model.h5"
+      },
+      "publishers": [],
+      "subscribers": []
+    }
+  ]
+}
+
+
